@@ -4,7 +4,7 @@
 ## Project description
 In this project, I investigate and analyze the crimes happended in San Francisco between Jan, 1st 2012 and May, 31st 2018. The target of this project is to analyze the trend and the distribution of crimes and give suggestions to police distribution and travelers.
 
-Through this project, I learnt to build a data processing pipeline by Spark SQL and Spark DataFrame for big data Online Analytical Processing **(OLAP)**.
+Through this project, I learnt to build a data processing pipeline by Spark SQL and Spark DataFrame for big data Online Analytical Processing **(OLAP)**. The code was built and run on databricks.
  
 ## Data Explore
 ### Crime count for different categories
@@ -111,3 +111,10 @@ I chose k=15 as a choice between performance and computation complexity and then
 </p>
 
 Above is the reasul of 15-means clustering. I put a red triangle mark at the center of each area. I suggest police offices to allocate ther forces around the center area so that they could reach the crime at the fastest speed. 
+
+#### References
+
+https://data.sfgov.org/Public-Safety/sf-data/skgt-fej3/data
+
+https://github.com/HuGuanwei/sf_crime_analysis/blob/master/HW1.ipynb
+
