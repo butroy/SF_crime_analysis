@@ -87,7 +87,7 @@ For property crimes, we could observe that theft is increasing in recent years, 
   <img width="500" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/7.%20Violent_analysis.png">
 </p>
 
-For violent crimes, sex offense increases and we should inform these to the society so that citizens could learn some skills to proect themselves.
+For violent crimes, sex offense has noticably increased and we should inform these to the society so that citizens could learn some skills to proect themselves.
 
 
 ## Spatial analysis
@@ -95,7 +95,19 @@ For violent crimes, sex offense increases and we should inform these to the soci
 Finally, I will do spatial analysis of crimes.
 
 <p align="center">
-  <img width="500" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/8.crime_shown.png">
+  <img width="400" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/8.crime_shown.png">
 </p>
 
+I also run a kmeans clustering based on the spatial information of each crime. The cost vs. k plot is as following.
 
+<p align="center">
+  <img width="400" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/8.cost.png">
+</p>
+
+I chose k=15 as a choice between performance and computation complexity and then run k-means clustering again upon the data. 
+
+<p align="center">
+  <img width="400" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/8.cost.png">
+</p>
+
+Above is the reasul of 15-means clustering. I put a red triangle mark at the center of each area. I suggest police offices to allocate ther forces around the center area so that they could reach the crime at the fastest speed. 
