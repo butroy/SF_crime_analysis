@@ -12,10 +12,14 @@ Through this project, I learnt to build a data processing pipeline by Spark SQL 
   <img width="600" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/1.crime_by_category.png">
 </p>
 
+Firstly, I explore the data by counting the crimes in different categories. I found most frequent crimes is theft
+
 ### Crime count for different district
 <p align="center">
   <img width="500" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/2.crime_by_district.png">
 </p>
+
+Then, I count crimes happened in different districts. I found the top-3 dangerous districts are SOUTHERN, MISSION and NORTHERN. Thus, I think it's necessary to further investigate on these areas
 
 ### Crime count for different time
 
@@ -23,7 +27,11 @@ Through this project, I learnt to build a data processing pipeline by Spark SQL 
   <img width="600" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/3.crime_by_time.png">
 </p>
 
-Due to the limited data, the crime happened in 2018 only recorded till May. So the crime counts happened in 2018 is much less than that in other 
+Due to the limited data, the crime happened in 2018 only recorded till May. So the crime counts happened in 2018 is much less than that in other years. 
+
+From counting by different hours, I found that crime happens less frequently in the early morning, and more frequently at dinner time.
+
+From counting by different day of week, I found cirme is more likely to happen during weekends.
 
 ### Trend of Crimes
 
@@ -41,7 +49,14 @@ Let's take 12.15 as an example
   <img width="400" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/5.day_analysis.png">
 </p>
 
-### Crime analysis in top-3 danger district
+
+From above plots based on different time period, we can conclude that crimes happened in different time period has differnt counts.
+
+Though 12:00AM~5:59AM has the least number of crimes happened, it unlikely for travelers to visit during that period.
+
+So, I suggest travelers try to arrange their visiting in the morning and visit some indoor sites during afternoon to avoid crimes. 
+
+### Crime analysis in top-3 danger districts
 
 <p align="center">
   <img width="600" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/6.Mission.png">
@@ -55,6 +70,9 @@ Let's take 12.15 as an example
   <img width="600" height="400" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/6.Southern.png">
 </p>
 
+Stolen is very likely to happen at these dangerous areas. Traveler should avoid traveling these areas between 16:00 -- 21:00. And if they travel to these areas, they shouldn't bring too many cash. 
+
+
 ### Violent Crime vs. Property Crime
 
 <p align="center">
@@ -62,8 +80,22 @@ Let's take 12.15 as an example
 </p>
 
 
+For property crimes, we could observe that theft is increasing in recent years, vehicle theft had decreased to some extent. However, Burglary didn't decrease. Police department should think about possible solution for that
+
+
 <p align="center">
   <img width="500" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/7.%20Violent_analysis.png">
 </p>
 
-### Spatial analysis
+For violent crimes, sex offense increases and we should inform these to the society so that citizens could learn some skills to proect themselves.
+
+
+## Spatial analysis
+
+Finally, I will do spatial analysis of crimes.
+
+<p align="center">
+  <img width="500" height="300" src="https://github.com/butroy/SF_crime_analysis/blob/master/plots/8.crime_shown.png">
+</p>
+
+
